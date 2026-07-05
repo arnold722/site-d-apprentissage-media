@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #582eff;
+  padding: 20px;
+}
+
+form {
+  background: #11182a;
+  color: white;
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.group {
+  margin-bottom: 15px;
+}

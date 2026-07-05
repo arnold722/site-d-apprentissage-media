@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #0b0f1a;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #11182a;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #582eff;
+}
+
+/* ===== HEADER ===== */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: #11182a;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: bold;
+  color: #7c5cff;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.nav a:hover {
+  opacity: 1;
+  color: #7c5cff;
+}
+
+.menu-icon {
+  display: none;
+}
+
+/* BUTTONS */
+.btn-primary {
+  background: #7c5cff;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  float: right;
+}
+.btn-primary a {
+  text-decoration: none;
+  color: white;
+}
+.btn-primary a:hover {
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}
+.btn-rej {
+  background: #0b0f1a;
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  float: right;
+}
+.btn-rej a {
+  text-decoration: none;
+  color: white;
+}
+.btn-rej a:hover {
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #7c5cff;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  border: 1px solid #7c5cff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  color: white;
+  text-decoration: none;
+}
+
+/* ===== HERO ===== */
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 30px;
+  gap: 30px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 60px 50px;
+
+  gap: 30px;
+
+  background:
+    linear-gradient(
+      to bottom,
+
+      rgba(29, 29, 29, 0.9) 0%,
+
+      rgba(15, 17, 23, 0.7) 60%,
+
+      #0b0f1a 100%
+    ),
+    url("image/IMG_8781.jpg");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+}
+
+.Grandissez {
+  color: #7c5cff;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.hero-card {
+  background: #1a1d2e;
+  padding: 30px;
+  border-radius: 10px;
+  color: rgb(170, 170, 170);
+}
+
+/* ===== SECTION ===== */
+.section {
+  padding: 70px 40px;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+  color: #7c5cff;
+}
+
+/* DARK */
+.dark {
+  background: #11182a;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: #141c30;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* STEPS */
+.steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.step {
+  background: #141c30;
+  padding: 20px;
+  border-radius: 10px;
+}
+.step a {
+  color: white;
+  text-decoration: none;
+}
+.step a:hover {
+  color: #7c5cff;
+}
+
+.step span {
+  background: linear-gradient(135deg, #4618ff, #5879fd);
+  padding: 6px 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.cta {
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 60px 40px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #582eff, #5879fd);
+}
+
+/* FOOTER */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  background: #0a0d16;
+  gap: 20px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.link a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.link a:hover {
+  color: #7c5cff;
+  text-decoration: underline;
+}
+
+.contact a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.contact a:hover{
+  color: #7c5cff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .steps {
+    grid-template-columns: 1fr;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
