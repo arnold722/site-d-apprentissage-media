@@ -211,6 +211,7 @@ body {
   background: #141c30;
   padding: 20px;
   border-radius: 10px;
+  border-left: 2px solid #7c5cff;
 }
 .step a {
   color: white;
@@ -257,6 +258,7 @@ body {
   color: #7c5cff;
   text-decoration: underline;
 }
+
 
 .contact a{
   color: rgb(255, 255, 255);
