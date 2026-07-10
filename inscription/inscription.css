@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background: #582eff;
+  background: #0b0f1a;
   padding: 20px;
 }
 
@@ -17,14 +17,53 @@ input,
 select,
 textarea {
   width: 100%;
-  padding: 8px;
+  padding: 10px;
   margin: 5px 0 15px;
 }
 
-label {
-  font-weight: bold;
-}
+
 
 .group {
   margin-bottom: 15px;
+}
+
+#survey-form input {
+  background-color: #0b0f1a;
+  border: none;
+  border-radius: 3px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+#survey-form #number-label placeholder {
+  color: rgb(175, 99, 0);
+}
+
+textarea{
+  background-color: #0b0f1a;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+option{
+  background-color: #0b0f1a;
+  color: white;
+}
+#dropdown{
+   background-color: #0b0f1a;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+#submit{
+  background-color: #0b0f1a;
+  color: white;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 5px;
+}
+#submit:hover{
+  background-color: #090b0f;
 }

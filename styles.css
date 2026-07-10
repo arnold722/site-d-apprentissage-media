@@ -199,6 +199,10 @@ body {
   padding: 20px;
   border-radius: 10px;
 }
+.card:hover {
+  box-shadow: 3px 3px 3px #7c5cff;
+  cursor: pointer;
+}
 
 /* STEPS */
 .steps {
@@ -259,12 +263,11 @@ body {
   text-decoration: underline;
 }
 
-
-.contact a{
+.contact a {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
-.contact a:hover{
+.contact a:hover {
   color: #7c5cff;
 }
 
