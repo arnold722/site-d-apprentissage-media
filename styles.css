@@ -293,3 +293,11 @@ body {
     display: block;
   }
 }
+
+
+@media (max-width: 400px) {
+  .btn-primary {
+  margin-right: 20px;
+}
+  }
+
