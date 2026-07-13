@@ -70,6 +70,10 @@ body {
   border-radius: 8px;
   cursor: pointer;
   float: right;
+  transition: .3s ease-in-out;
+}
+.btn-primary:hover{
+  background: #4022b4;
 }
 .btn-primary a {
   text-decoration: none;
