@@ -37,6 +37,7 @@ body {
 .logo {
   font-weight: bold;
   color: #7c5cff;
+  cursor: pointer;
 }
 
 .nav {
@@ -171,8 +172,14 @@ body {
   padding: 30px;
   border-radius: 10px;
   color: rgb(170, 170, 170);
+  transition: .5s;
+  border: 1px solid rgb(245, 222, 179, 0.1);
 }
-
+.hero-card:hover{
+  cursor: auto;
+  color: rgb(83, 83, 83);
+  border: 1px solid rgb(245, 222, 179, 0.2);
+}
 /* ===== SECTION ===== */
 .section {
   padding: 70px 40px;
