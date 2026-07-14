@@ -22,12 +22,12 @@
         type="number"
         min="10"
         max="30"
-        placeholder="Enter your age"
+        placeholder="Enter your age" required
       />
 
       <!-- Dropdown -->
       <label>Which cours do you like to  study first?</label>
-      <select id="dropdown">
+      <select id="dropdown" required>
         <option></option>
         <option>vMix</option>
         <option>Adobe Photoshop</option>
@@ -39,8 +39,8 @@
       <!-- Radio buttons -->
       <div class="group">
         <p>Would you recommend us?</p>
-        <label> <input type="radio" name="recommend" value="yes" /> Yes </label>
-        <label> <input type="radio" name="recommend" value="no" /> No </label>
+        <label> <input type="radio" name="recommend" value="yes" required/> Yes </label>
+        <label> <input type="radio" name="recommend" value="no" required/> No </label>
       </div>
 
       <!-- Checkboxes -->
@@ -48,11 +48,14 @@
 
       <!-- Textarea -->
       <label>Additional Comments</label>
-      <textarea rows="4" placeholder="Exemple:
+      <textarea rows="4" required placeholder="Exemple:
 Je veux apprendre avec vous pour etre a mesure de service dans le departement de media"></textarea>
 
       <!-- Submit -->
       <button id="submit" type="submit">Submit</button>
     </form>
+    <div class="home-page">
+      <a href="/index.html">home-page ></a>
+    </div>
   </body>
 </html>

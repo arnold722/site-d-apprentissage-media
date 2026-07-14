@@ -78,3 +78,19 @@ option{
   background-color: #090b0f;
   box-shadow: 1px 1px 3px #7c5cff;
 }
+
+.home-page{
+  top: 0;
+}
+.home-page a{
+  margin-left: 88%;
+  margin-bottom: 20px;
+  color: white;
+  text-decoration: none;
+  padding:  7px;
+  border-radius: 10px;
+}
+.home-page a:hover{
+  color: #7c5cff;
+  text-decoration: underline;
+}
