@@ -92,7 +92,7 @@ body {
   cursor: pointer;
   float: right;
 }
-.btn-rej:hover{
+.btn-rej:hover {
   box-shadow: 5px 5px 4px rgba(15, 17, 23, 0.7);
 }
 .btn-rej a {
@@ -130,15 +130,10 @@ body {
   justify-content: space-between;
   padding: 60px 30px;
   gap: 30px;
-
   display: flex;
-
   justify-content: space-between;
-
   padding: 60px 50px;
-
   gap: 30px;
-
   background:
     linear-gradient(
       to bottom,
@@ -254,7 +249,7 @@ body {
   text-align: center;
   padding: 60px 40px;
   border-radius: 20px;
-    background: linear-gradient(135deg, #2700c2, #5f7fff);
+  background: linear-gradient(135deg, #2700c2, #5f7fff);
   transition: 0.5s ease-in-out;
 }
 .cta:hover {
