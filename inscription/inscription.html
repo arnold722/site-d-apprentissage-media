@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="inscription.css">
+  </head>
+  <body>
+    <form id="survey-form">
+      <!-- Name -->
+      <label id="name-label">Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required />
+
+      <!-- Email -->
+      <label id="email-label">Email</label>
+      <input id="email" type="email" placeholder="Enter your email" required />
+
+      <!-- Number -->
+      <label id="number-label">Age</label>
+      <input
+        id="number"
+        type="number"
+        min="10"
+        max="30"
+        placeholder="Enter your age" required
+      />
+
+      <!-- Dropdown -->
+      <label>Which cours do you like to  study first?</label>
+      <select id="dropdown" required>
+        <option></option>
+        <option>vMix</option>
+        <option>Adobe Photoshop</option>
+        <option>Adobe Premier-pro</option>
+        <option>Adobe after efects</option>
+        <option>Bible show</option>
+      </select>
+
+      <!-- Radio buttons -->
+      <div class="group">
+        <p>Would you recommend us?</p>
+        <label> <input type="radio" name="recommend" value="yes" required/> Yes </label>
+        <label> <input type="radio" name="recommend" value="no" required/> No </label>
+      </div>
+
+      <!-- Checkboxes -->
+
+
+      <!-- Textarea -->
+      <label>Additional Comments</label>
+      <textarea rows="4" required placeholder="Exemple:
+Je veux apprendre avec vous pour etre a mesure de service dans le departement de media"></textarea>
+
+      <!-- Submit -->
+      <button id="submit" type="submit">Submit</button>
+    </form>
+    <div class="home-page">
+      <a href="/index.html">home-page ></a>
+    </div>
+  </body>
+</html>
