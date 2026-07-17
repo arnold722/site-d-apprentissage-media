@@ -251,7 +251,6 @@ body {
 .cta:hover {
   cursor: pointer;
 }
-
 /* FOOTER */
 .footer {
   display: grid;
@@ -260,7 +259,6 @@ body {
   background: #0a0d16;
   gap: 20px;
 }
-
 .link {
   display: flex;
   flex-direction: column-reverse;
