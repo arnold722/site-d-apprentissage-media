@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0b0f1a;
+  padding: 30px;
+  padding-bottom: 50px;
+  height: 100vh;
+}
+
+form {
+  background: #11182a;
+  color: white;
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 10px;
+  height: 100%;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px;
+}
+
+
+
+.group {
+  margin-bottom: 15px;
+}
+
+#survey-form input {
+  background-color: #0b0f1a;
+  border: none;
+  border-radius: 3px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: none;
+}
+#survey-form #number-label placeholder {
+  color: rgb(175, 99, 0);
+}
+
+textarea{
+  background-color: #0b0f1a;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  color: white;
+}
+
+option{
+  background-color: #0b0f1a;
+  color: white;
+}
+#dropdown{
+   background-color: #0b0f1a;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: none;
+}
+#dropdown:hover{
+   background-color: #070a11;
+}
+
+#submit{
+  background-color: #0b0f1a;
+  color: white;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 5px;
+}
+#submit:hover{
+  background-color: #090b0f;
+  box-shadow: 1px 1px 3px #7c5cff;
+}
+
+.home-page{
+  top: 0;
+}
+.home-page a{
+  margin-left: 88%;
+  margin-bottom: 20px;
+  color: white;
+  text-decoration: none;
+  padding:  20px;
+  border-radius: 10px;
+}
+.home-page a:hover{
+  color: #7c5cff;
+  text-decoration: underline;
+}
