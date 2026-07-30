@@ -82,3 +82,15 @@ option{
 .home-page{
   top: 0;
 }
+.home-page a{
+  margin-left: 88%;
+  margin-bottom: 20px;
+  color: white;
+  text-decoration: none;
+  padding:  20px;
+  border-radius: 10px;
+}
+.home-page a:hover{
+  color: #7c5cff;
+  text-decoration: underline;
+}
